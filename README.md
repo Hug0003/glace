@@ -1,36 +1,59 @@
-# Glace
+# Site vitrine marchand de glace
 
-Bienvenue dans le dépôt de **Glace**, un projet développé en HTML SCSS JS. Ce projet est un site vitrine pour un marchand de glace.
+## 📄 Description
+C'est un site vitrine static, pour un marchand de glace, avec chargement de page, affichage différentes glaces, avec des animations et des interactions.
+C'est surtout pour la D.A que j'ai fait ce site ( maquette recupérer sur X )
 
-## Table des Matières
+## 🎥 Démo Visuelle
+![project2small](https://github.com/user-attachments/assets/26dd10ae-f9d1-4fdb-a4bb-38fabb7e7bf4)
 
-- [À propos](#à-propos)
-- [Fonctionnalités](#fonctionnalités)
-- [Technologies utilisées](#technologies-utilisées)
-- [Prérequis](#prérequis)
+## ✨ Fonctionnalités
+- [x] chargement du site
+- [x] animations
+- [x] selections des differentes glaces
+
+## 🚀 Installation
+### Prérequis
+- installer nodejs
+
+### Étapes d'installation
+# Clonez le projet
+git clone https://github.com/Hug0003/glace.git
+
+# Installez les dépendances
+"npm install"
+ça va réinstaller toutes les dépendances
+
+# Lancez le projet
+1. npm run build:css
+2. npm start
+
+## 📚 Usage
+Explorer les glaces qu'il propose
+
+## 👥 Contributeurs
+
+- moi : - moi : [@monprofil](https://github.com/Hug0003)  
+
+### Contribuer
+Les pull requests sont les bienvenues. Pour les changements majeurs, ouvrez une issue d'abord pour discuter de ce que vous souhaitez changer.  
 
 
-## À propos
+## 🛠️ Technologies Utilisées
 
-**Glace** est un projet conçu pour accentuer la visibilité d'un marchand de glace. Il permet de de le contacter, de voir toutes ses glaces disponibles tout ça avec des animations transitions et interactions
-de l'utilisateurs pour rendre le site vivant.
+- HTML 
+- SCSS (sass)
+- JS
+- JSON
+- autoprefixer
+- postcss-cli
+- npm-run-all
 
-## Fonctionnalités
+## 📬 Contact
+Pour toute question, contactez-moi :  
+- GitHub : [@monprofil](https://github.com/Hug0003)  
+- E-mail : hugomeuriel@gmail.com
 
-- **[Fonctionnalité 1]** : présentation des differentes glaces en interagissant avec des boutons.
-- **[Fonctionnalité 2]** : animations pour le chargement du site .
-- **[Fonctionnalité 3]** : possibilité de le contacter.
 
-## Technologies utilisées
-
-- **[Technologie principale]** : HTML SCSS JS
-- **[Autres bibliothèques ou outils]** : npm
-
-## Prérequis
-
-Avant d'installer **Glace**, vous devez vous assurer que vous avez les éléments suivants installés :
-
-- installer npm
-- dans le terminal ecrire : npm install, npm run build:css, npm start
-
+  [@monprofil](https://github.com/Hug0003) / 2024
 
