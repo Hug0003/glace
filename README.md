@@ -26,7 +26,7 @@ git clone https://github.com/Hug0003/glace.git
 ça va réinstaller toutes les dépendances
 
 # Lancez le projet
-1. npm run build:css
+1. npm run build:css (pour toutes modifications) 
 2. npm start
    Si ça ne fonctionne pas : utiliser le live server
 
