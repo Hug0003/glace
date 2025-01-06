@@ -15,6 +15,7 @@ C'est surtout pour la D.A que j'ai fait ce site ( maquette recupérer sur X )
 ## 🚀 Installation
 ### Prérequis
 - installer nodejs
+- npm install ( ça va installer toutes les dépendances nécessaires ) si l'installation ne fonctionne pas ce n'est pas grave vous pouvez toujours lancer le projet avec live server
 
 ### Étapes d'installation
 # Clonez le projet
@@ -27,6 +28,7 @@ git clone https://github.com/Hug0003/glace.git
 # Lancez le projet
 1. npm run build:css
 2. npm start
+   Si ça ne fonctionne pas : utiliser le live server
 
 ## 📚 Usage
 Explorer les glaces qu'il propose
