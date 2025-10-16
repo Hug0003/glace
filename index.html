@@ -7,6 +7,8 @@
       href="https://fonts.googleapis.com/css2?family=Matemasie&display=swap"
       rel="stylesheet"
     />
+    <link rel="preload" as="image" href="img/glace-4.webp" />
+    <link rel="preload" as="image" href="img/glace-4.png" />
     <script defer src="script.js"></script>
     <title>Document</title>
     <link rel="stylesheet" href="css/style.css" />
@@ -38,7 +40,10 @@
           </div>
 
           <div class="profil">
-            <img class="me" src="img/user.jpg" alt="" />
+            <picture>
+              <source type="image/webp" srcset="img/user.webp" />
+              <img class="me" src="img/user.jpg" alt="" loading="lazy" decoding="async" />
+            </picture>
             <span class="deroulant__"></span>
           </div>
         </header>
@@ -78,7 +83,10 @@
         </div>
 
         <div class="presentation">
-            <img class="glace" src="img/glace-4.png" alt="">
+            <picture class="glace-picture">
+              <source type="image/webp" srcset="img/glace-4.webp">
+              <img class="glace" src="img/glace-4.png" alt="" loading="eager" fetchpriority="high" decoding="async">
+            </picture>
 
         </div>
         
@@ -109,7 +117,10 @@
         
           <div class="post">
           <div class="poster">
-            <img class="poster__glace" src="img/glace-4.png" alt="">
+            <picture class="poster-picture">
+              <source type="image/webp" srcset="img/glace-4.webp">
+              <img class="poster__glace" src="img/glace-4.png" alt="" loading="lazy" decoding="async">
+            </picture>
           </div>
         </div>
 
